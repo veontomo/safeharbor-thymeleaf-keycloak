@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Public page</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Thymeleaf + Keycloak + WebFlux app</h1>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Public resource</div>
+            <div class="card-body">
+                <p>
+                    Explore a diverse range of innovative companies specializing in fields like artificial intelligence,
+                    renewable energy, and healthcare IT, offering cutting-edge solutions to drive future advancements.
+                </p>
+                <p>Access the protected resource: <a th:href="@{/companies}">companies</a></p>
+            </div>
+            <div class="card-footer">Document last modified: 2024 July 22.</di>
+            </div>
+        </div>
+</body>
+
+</html>
